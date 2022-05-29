@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2B3942</color>
+    <color name="primary_dark">#2B3942</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="lighterprimary">#2B3942</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="textcolor">@color/primary</color>
+    <color name="greyLight">#9e9e9e</color>
+    <color name="splashscreencolor">#1d89e4</color>
+    <color name="colorPrimary">#0d1543</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="popUpBg">#0d1543</color>
+    <color name="listDivider">#356690</color>
+    <color name="primary_white_text">@android:color/white</color>
+    <color name="colorview">#32000000</color>
+    <color name="text_color">#8000FF</color>
+    <color name="tab_background_selected">#2499E0</color>
+    <color name="colorlighttext">#4e5457</color>
+    <color name="colortextblue">#136af6</color>
+    <color name="colortextred">#F63030</color>
+    <color name="colorinactive">#636363</color>
+    <color name="colorlightgrey">#848585</color>
+    <color name="colorGrey">#dcdcdc</color>
+    <color name="toolbarTitle">#cbecfd</color>
+    <color name="toolbarBg">#356690</color>
+    <color name="grayishblue">#bfcdd6</color>
+    <color name="bg_main">#b7bff1</color>
+
+    <color name="buttonText">#cbecfd</color>
+    <color name="buttonBg">#356690</color>
+
+    <color name="totalServers">#ffffff</color>
+
+    <color name="infoServersList">#1c3f61</color>
+
+    <color name="ratingNot">#A7A7A7</color>
+
+    <color name="activeServer">#093e68</color>
+    <color name="additionalServer">#ffffff</color>
+
+    <color name="serverNameBg">#cbecfd</color>
+    <color name="serverName">#356690</color>
+    <color name="lightRed">#FFFFFF</color>
+    <color name="txt_grey">#4e5457</color>
+    <color name="txt_blue">#136af6</color>
+    <color name="red">#f63030</color>
+</resources>

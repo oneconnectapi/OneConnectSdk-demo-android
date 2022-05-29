@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="top">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:cardElevation="7dp"
+        android:layout_marginRight="0dp"
+        app:cardUseCompatPadding="true">
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:src="@drawable/ic_blue_dot"
+                android:layout_width="@dimen/_10sdp"
+                android:visibility="gone"
+                android:layout_height="@dimen/_10sdp" />
+
+            <com.oneconnect.demoapp.Utils.CustomTxTRegular
+                android:gravity="top"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#4e5457"
+                android:id="@+id/items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="25dp" />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
