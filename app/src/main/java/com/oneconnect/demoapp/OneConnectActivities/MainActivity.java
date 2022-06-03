@@ -67,7 +67,7 @@ public class MainActivity extends ActivityOneConnect implements OneConnectPro.Re
     public static String official_dont_change_value;
     public Countries selectedCountry = null;
 
-    public static String type = "fb";
+    public static String type = "ad";
     public static String admob_id = "ca-app-pub-3940256099942544~3347511713";
     public static String admob_banner_id = "ca-app-pub-3940256099942544/6300978111";
     public static String admob_interstitial_id = "ca-app-pub-3940256099942544/1033173712";
