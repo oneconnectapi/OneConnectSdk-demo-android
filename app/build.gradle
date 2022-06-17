@@ -20,7 +20,7 @@ android {
             resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
         }
         applicationId 'com.oneconnect.demoapp'
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -70,7 +70,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // OneConnect Implementation
-    implementation 'com.github.oneconnectapi:OneConnectLib:v1.0.2'
+    implementation 'com.github.oneconnectapi:OneConnectLib:v1.0.6'
     // OneConnect Implementation
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
