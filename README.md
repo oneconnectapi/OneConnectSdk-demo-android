@@ -1,6 +1,6 @@
  This SDK Project is Created By OneConnect Team.
 
-<pre># This Project Content OneConnect Library Version 1.0.2
+<pre># This Project Content OneConnect Library
 
 # For Use, the SDK Required OneConnect API Key,
   Visit on this Website <a href="https://developer.oneconnect.top">https://developer.oneconnect.top</a> and Create Account and get the Key.
