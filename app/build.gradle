@@ -70,7 +70,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // OneConnect Implementation
-    implementation 'com.github.oneconnectapi:OneConnectLib:v1.0.6'
+    implementation 'com.github.oneconnectapi:OneConnectLib:v1.0.7'
     // OneConnect Implementation
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
