@@ -107,7 +107,9 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.4'
     implementation 'com.jakewharton:butterknife:10.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
-
+    def work_version = "2.7.0"
+    implementation "androidx.work:work-runtime:$work_version"
+    implementation "androidx.work:work-runtime-ktx:$work_version"
     implementation 'com.pixplicity.easyprefs:library:1.9.0'
     implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
     implementation 'com.yarolegovich:lovely-dialog:1.1.0'
