@@ -26,5 +26,3 @@
   
 # Just Smile after get the Project..... <strong>(^_^)</strong></pre>
 
-<p><a href="https://www.buymeacoffee.com/OneConnectSDK"><img src="https://raw.githubusercontent.com/oneconnectapi/OneConnectSdk-demo-android/f51dffe40edc22c77489ae0fd8605150d762be24/app/src/main/res/drawable/bmc-button.png" style="width: 410px;"></a></p>
-<p><br></p>
