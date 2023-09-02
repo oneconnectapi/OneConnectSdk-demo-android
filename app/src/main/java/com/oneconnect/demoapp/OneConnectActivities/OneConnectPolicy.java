@@ -57,7 +57,7 @@ public class OneConnectPolicy extends AppCompatActivity {
             }
         };
 
-        myString.setSpan(clickableSpan,44,58, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        myString.setSpan(clickableSpan,43,67, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         accept_pp.setMovementMethod(LinkMovementMethod.getInstance());
         accept_pp.setText(myString);

@@ -21,22 +21,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </androidx.viewpager.widget.ViewPager>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_below="@+id/toolbarold"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarold"
+        android:background="@color/primary"
         android:minHeight="?actionBarSize"
         app:tabGravity="fill"
-        android:background="@color/primary"
         app:tabIndicatorColor="@color/white"
         app:tabIndicatorHeight="4dp"
-        app:titleTextColor="@color/white"
+        app:tabMode="fixed"
         app:tabSelectedTextColor="@color/white"
         app:tabTextAppearance="@style/TabTextAppearance"
-        app:tabMode="fixed"
-        >
-    </com.google.android.material.tabs.TabLayout>
+        app:titleTextColor="@color/white"/>
 
 
 </RelativeLayout>

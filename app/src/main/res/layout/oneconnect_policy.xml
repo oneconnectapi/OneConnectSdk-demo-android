@@ -22,7 +22,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="15dp"
@@ -35,7 +34,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/img_logo"
             android:layout_width="169dp"
             android:layout_height="169dp"
             android:contentDescription="@string/app_name"
@@ -56,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
+            android:gravity="center"
             android:layout_marginBottom="50dp"
             android:orientation="horizontal">
 
@@ -64,6 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/privacy_policy_msg"
                 android:textColor="@color/textcolor" />
 

@@ -1,14 +1,10 @@
 <resources>
     <string name="app_name">OneConnect App</string>
-    <string name="privacy_policy">Privacy Policy</string>
     <string name="connected">Connected</string>
     <string name="disconnected">Not Connected</string>
-    <string name="connecting">Connecting</string>
-    <string name="paused">Paused</string>
-    <string name="nav_header_title">Premium VPN</string>
     <bool name="fb_list">false</bool>
     <bool name="ad_list">true</bool>
-    <string name="policy_url">https://google.com</string>
+    <string name="policy_url">https://developer.oneconnect.top/privacy/</string>
     <string name="one_month">$1.00</string>
     <string name="three_months">$2.00</string>
     <string name="six_months">$3.00</string>

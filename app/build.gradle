@@ -9,7 +9,7 @@ ext {
 }
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     packagingOptions {
         pickFirst '**/*.so'
@@ -21,7 +21,7 @@ android {
         }
         applicationId 'com.oneconnect.demoapp'
         minSdkVersion 21
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -70,7 +70,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // OneConnect Implementation
-    implementation 'com.github.oneconnectapi:OneConnectLib:v1.0.9'
+    implementation 'com.github.oneconnectapi:OneConnectLib:v1.1.0'
     // OneConnect Implementation
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -123,7 +123,7 @@ dependencies {
     implementation 'net.grandcentrix.tray:tray:0.12.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
     implementation 'com.codemybrainsout.rating:ratingdialog:1.0.8';
-
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
     implementation 'com.github.jama5262:CarouselView:1.1.0'
     implementation 'com.google.ads.mediation:facebook:6.6.0.0'
     implementation 'com.google.android.ads:mediation-test-suite:2.0.0'

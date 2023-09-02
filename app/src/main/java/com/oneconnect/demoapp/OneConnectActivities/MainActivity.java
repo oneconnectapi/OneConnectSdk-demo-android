@@ -64,7 +64,6 @@ public class MainActivity extends ActivityOneConnect implements OneConnectPro.Re
     private static final String CHANNEL_ID = "vpn";
     public static String facebook_reward_id = "";
     public static String admob_reward="ca-app-pub-3940256099942544/5224354917";
-    public static String official_dont_change_value;
     public Countries selectedCountry = null;
 
     public static String type = "ad";

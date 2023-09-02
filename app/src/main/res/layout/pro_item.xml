@@ -9,7 +9,6 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -22,7 +21,6 @@
         app:cardElevation="0dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/flag_image_r"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingVertical="10dp">
@@ -62,7 +60,6 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/region_limit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="218ms"
@@ -98,7 +95,6 @@
             android:visibility="gone">
 
             <ImageView
-                android:id="@+id/country_flag1"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -107,7 +103,6 @@
                 app:srcCompat="@drawable/flag_default" />
 
             <TextView
-                android:id="@+id/region_title1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -118,7 +113,6 @@
                 android:textSize="12dp" />
 
             <TextView
-                android:id="@+id/region_limit1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

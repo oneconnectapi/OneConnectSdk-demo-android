@@ -87,38 +87,6 @@ public class ServerFreeAdapter extends RecyclerView.Adapter<ServerFreeAdapter.mV
 
             } else {
 
-                /*
-
-                LinearLayout adContainer = new LinearLayout(context);
-                com.facebook.ads.AdView facebookAdview;
-
-                AudienceNetworkAds.initialize(context);
-                facebookAdview = new com.facebook.ads.AdView(context, MainActivity.fb_banner_id, com.facebook.ads.AdSize.BANNER_HEIGHT_50);
-                adContainer.addView(facebookAdview);
-
-                com.facebook.ads.AdListener adListener = new
-                        com.facebook.ads.AdListener() {
-                            public void onError(Ad ad, AdError adError) {
-                                Log.d("FACEBOOKAD", adError.getErrorMessage());
-                            }
-
-                            public void onAdLoaded(Ad ad) {
-
-                            }
-
-                            public void onAdClicked(Ad ad) {
-
-                            }
-
-                            public void onLoggingImpression(Ad ad) {
-
-                            }
-                        };
-
-                facebookAdview.loadAd(facebookAdview.buildLoadAdConfig().withAdListener(adListener).build());
-
-                return new mViewhoder(adContainer);
-                */
 
                 com.facebook.ads.NativeAdLayout nativeAdLayout = new com.facebook.ads.NativeAdLayout(context);
                 LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);

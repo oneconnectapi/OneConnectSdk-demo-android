@@ -351,16 +351,7 @@ abstract class ActivityOneConnect : SideBarActivity() {
 
                 }
 
-            } else if (MainActivity.type == "start") {
-
-
-
-
-
-
-
-
-            } else {
+            } else if (MainActivity.type == "start") { } else {
                 AdSettings.addTestDevice("fd37f950-1634-46f1-9691-3b8a4c96ab70")
                 AudienceNetworkAds.initialize(this@ActivityOneConnect)
 
@@ -484,7 +475,7 @@ abstract class ActivityOneConnect : SideBarActivity() {
                 connectionStatus!!.visibility = View.INVISIBLE
 
 
-                showMessage("Connection Error", "error");
+
             }
             "LOAD" -> {
                 STATUS = "LOAD"

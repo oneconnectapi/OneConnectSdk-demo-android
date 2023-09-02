@@ -1,9 +1,6 @@
-<p><a href="https://oneconnect-1.gitbook.io/oneconnect-sdk-for-android-doc/"><strong><span style="color: rgb(97, 189, 109); font-size: 96px;">Click here</span></strong></a><strong><span style="color: rgb(97, 189, 109); font-size: 96px;">&nbsp;to View Detailed Documentation </span></strong></p>
+ This SDK Project is Created By OneConnect Team.
 
-
-<pre>This SDK Project is Created By OneConnect Team.
- 
- # This Project Content OneConnect Library
+<pre># This Project Content OneConnect Library
 
 # For Use, the SDK Required OneConnect API Key,
   Visit on this Website <a href="https://developer.oneconnect.top">https://developer.oneconnect.top</a> and Create Account and get the Key.

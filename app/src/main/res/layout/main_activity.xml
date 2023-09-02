@@ -73,7 +73,6 @@
                         tools:layout_conversion_absoluteWidth="112dp" />
 
                     <ImageView
-                        android:id="@+id/vpn_details"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center"
@@ -116,7 +115,6 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <View
-                        android:id="@+id/view1"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:background="@drawable/connect_btn1"

@@ -102,13 +102,6 @@ public class OneConnectPro extends Fragment implements ServerProAdapter.RegionLi
         mUnblockButton = view.findViewById(R.id.vip_unblock);
         mPurchaseLayout.setVisibility(View.GONE);
 
-        MobileAds.initialize(getActivity(), new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-                Log.e("REWARDED INITIALIZ", initializationStatus.getAdapterStatusMap().toString());
-                initAdMob();
-            }
-        });
 
         LayoutInflater pInflater = (LayoutInflater) view.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         popupView = pInflater.inflate(R.layout.layout_bottom_sheet, (ViewGroup) view, false);
@@ -231,37 +224,6 @@ public class OneConnectPro extends Fragment implements ServerProAdapter.RegionLi
         fbAdResume = false;
     }
 
-    public void initAdMob() {
-
-        AdRequest adRequest = new AdRequest.Builder().build();
-
-        RewardedAd.load(getActivity(), MainActivity.admob_reward,
-            adRequest, new RewardedAdLoadCallback(){
-                @Override
-                public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-
-                    mRewardedAd = null;
-                }
-
-                @Override
-                public void onAdLoaded(@NonNull RewardedAd rewardedAd) {
-                    mRewardedAd = rewardedAd;
-                    mRewardedAd.setFullScreenContentCallback(new FullScreenContentCallback() {
-                        @Override
-                        public void onAdShowedFullScreenContent() {
-
-                        }
-
-                        @Override
-                        public void onAdDismissedFullScreenContent() {
-
-                            Log.d(TAG, "Ad was dismissed.");
-                            mRewardedAd = null;
-                        }
-                    });
-                }
-            });
-    }
 
     private void initOnClick() {
 
