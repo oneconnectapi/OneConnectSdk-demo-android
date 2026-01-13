@@ -1,5 +1,3 @@
-<p style="text-align: center;">We Accept the Payment Via <a href="https://coincardx.com/register/devoneconnect" target="_blank">Coincardx.com</a>&nbsp;and Debit &amp; Credit Card For Buy Paid Plans</p>
-
 <p><a href="https://oneconnect-1.gitbook.io/oneconnect-sdk-for-android-doc/"><strong><span style="color: rgb(97, 189, 109); font-size: 96px;">Click here</span></strong></a><strong><span style="color: rgb(97, 189, 109); font-size: 96px;">&nbsp;to View Detailed Documentation </span></strong></p>
  
 
