@@ -14,9 +14,9 @@
 
 <img src="https://oneconnect.top/keyApi.png" style="width: 727px;">
 
-# You have to Put inside SplashScreen.java Please See Screenshot
+# You have to Put inside MainActivity.kt Please See Screenshot
 
-<img src="https://oneconnect.top/serverkey.png" style="width: 727px;"><p>
+<img src="https://oneconnect.top/oneconnect_key_new.png" style="width: 727px;"><p>
 </p># This Project Content AdMob &amp; Facebook Ads those developers want to Add Another Ads SDK
    they need to follow the Exiting Method of Ads SDK and Also Have IAP Subscription.
 
