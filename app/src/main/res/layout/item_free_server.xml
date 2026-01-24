@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tab">
+
+    <ImageView
+        android:id="@+id/ivFlag"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/tvServerName"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textColor="@color/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

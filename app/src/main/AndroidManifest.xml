@@ -12,8 +12,13 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
-        android:name="com.oneconnect.demoapp.OneConnect"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -23,39 +28,26 @@
         tools:replace="android:networkSecurityConfig"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.oneconnect.demoapp.OneConnectActivities.SubscriptionsActivity" />
-        <activity android:name="com.oneconnect.demoapp.OneConnectActivities.OneConnectPolicy" />
-
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1895176674912401~3090708404" />
-
-        <meta-data android:name="com.startapp.sdk.APPLICATION_ID" android:value="206182569" />
-        <meta-data android:name="com.startapp.sdk.RETURN_ADS_ENABLED" android:value="false" />
-
-
+        <activity
+            android:name="com.oneconnect.demoapp.activities.ServerListActivity" />
 
         <activity
-            android:name="com.oneconnect.demoapp.OneConnectActivities.OneConnectPolicyDetails" />
+            android:name="com.oneconnect.demoapp.activities.WebViewActivity" />
 
         <activity
-            android:name="com.oneconnect.demoapp.OneConnectActivities.SplashScreen"
-            android:theme="@style/Splashscreentheme"
-            android:exported="true">
+            android:name="com.oneconnect.demoapp.activities.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApp.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.oneconnect.demoapp.OneConnectActivities.Servers"
-            android:parentActivityName="com.oneconnect.demoapp.OneConnectActivities.MainActivity" android:exported="true"/>
-        <activity android:name="com.oneconnect.demoapp.OneConnectActivities.MainActivity" />
-        <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:hardwareAccelerated="true" />
 
         <activity
-            android:name="top.oneconnectapi.app.DisconnectVPNActivity"
+            android:name="top.oneconnectapi.app.activities.DisconnectVPN"
+            android:autoRemoveFromRecents="true"
             android:excludeFromRecents="true"
             android:noHistory="true"
             android:taskAffinity=".DisconnectVPN"
@@ -63,14 +55,21 @@
 
         <service
             android:name="top.oneconnectapi.app.core.OpenVPNService"
+            android:exported="true"
             android:permission="android.permission.BIND_VPN_SERVICE"
-            android:exported="true">
+            android:foregroundServiceType="specialUse"
+            android:process=":openvpn">
             <intent-filter>
                 <action android:name="android.net.VpnService" />
             </intent-filter>
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="vpn"/>
         </service>
-        
 
+        <service
+            android:name="top.oneconnectapi.app.core.keepVPNAlive"
+            android:process=":openvpn"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
         
     </application>
 

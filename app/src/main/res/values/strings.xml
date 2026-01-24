@@ -1,21 +1,9 @@
 <resources>
     <string name="app_name">OneConnect App</string>
-    <string name="connected">Connected</string>
-    <string name="disconnected">Not Connected</string>
-    <bool name="fb_list">false</bool>
-    <bool name="ad_list">true</bool>
-    <string name="policy_url">https://developer.oneconnect.top/privacy/</string>
-    <string name="one_month">$1.00</string>
-    <string name="three_months">$2.00</string>
-    <string name="six_months">$3.00</string>
-    <string name="twelve_months">$4.00</string>
-    <string name="one_month_txt">Monthly</string>
-    <string name="three_months_txt">3 Months</string>
-    <string name="six_months_txt"> 6 Months</string>
-    <string name="twelve_months_txt">12 Months</string>
-    <string name="welcome_message">Welcome to %1$s!</string>
-    <string name="privacy_policy_msg">By Using this OneConnect App, you agree to developer.oneconnect.top Privacy Policy.</string>
-    <string name="privacy_policy_button">ACCEPT &amp; CONTINUE</string>
-    <string name="sub_text">Subscription Activity</string>
-    <string name="sub_title">Subscription Titles</string>
+
+    <string name="default_download_speed">▼ 0.0 MB/s</string>
+    <string name="default_upload_speed">0.0 MB/s ▲</string>
+    <string name="download_speed">▼ %1$s</string>
+    <string name="upload_speed">%1$s ▲</string>
+
 </resources>
